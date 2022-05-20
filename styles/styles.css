@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "Kanit_black";
+    src: url(../fonts/Kanit-Black.ttf);
+    
+}
+li {
+    border-right: 1px solid #bbb;
+  }
+ul {
+    position: sticky;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: red;
+    
+  }
+  
+li {
+    float: right;
+  }
+  
+li a {
+      font-family: "Kanit_black";
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+    border-radius: 1px solid #bbb;
+  }
+  
+  
+  li a:hover {
+    background-color: rgb(116, 2, 2);
+  }
+.background {
+    background-image: url(../images/nintendo_main.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
