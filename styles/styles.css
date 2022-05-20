@@ -1,8 +1,16 @@
 @font-face {
     font-family: "Kanit_black";
     src: url(../fonts/Kanit-Black.ttf);
-    
+} 
+@font-face {
+    font-family: "Kanit_italic";
+    src: url(../fonts/Kanit-Italic.ttf);
+}    
+@font-face {
+    font-family: "Kanit_regular";
+    src: url(../fonts/Kanit-Regular);
 }
+
 li {
     border-right: 1px solid #bbb;
   }
@@ -37,7 +45,17 @@ li a {
   }
 .background {
     background-image: url(../images/nintendo_main.jpg);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    min-height: 100vh;
+    height: 100vh;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+p {
+    text-align: center;
+    font-family: "Kanit_regular", sans-serif;
+    font-size: 20px;
+    padding: 100px;
 }
