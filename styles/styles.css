@@ -12,7 +12,7 @@
 }
 
 li {
-    border-right: 1px solid #bbb;
+    border-right: 1px solid #FFFFFF;
   }
 ul {
     position: sticky;
@@ -20,7 +20,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: red;
+    background-color: #E5383B;
     
   }
   
@@ -29,20 +29,18 @@ li {
   }
   
 li a {
-      font-family: "Kanit_black";
+      font-family: "Kanit_black", sans-serif;
     display: block;
-    color: white;
+    color: #FFFFFF;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     
-    border-radius: 1px solid #bbb;
+    border-radius: 1px solid #FFFFFF;
   }
   
   
-  li a:hover {
-    background-color: rgb(116, 2, 2);
-  }
+  
 .background {
     background-image: url(../images/nintendo_main.jpg);
     background-size: cover;
@@ -53,9 +51,15 @@ li a {
     padding: 0;
     margin: 0;
 }
-p {
+.kar_text {
+    background-color: #FFFFFF;
     text-align: center;
     font-family: "Kanit_regular", sans-serif;
     font-size: 20px;
-    padding: 100px;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 10px 10px 5px rgba(11,9,10,0.5);
+    border: 2px #0B090A solid;
+    padding: 25px;
+    margin: 40px;
 }
