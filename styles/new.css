@@ -1,19 +1,30 @@
-
+@font-face {
+  font-family: "Kanit_black";
+  src: url(../fonts/Kanit-Black.ttf);
+} 
+@font-face {
+  font-family: "Kanit_italic";
+  src: url(../fonts/Kanit-Italic.ttf);
+}    
+@font-face {
+  font-family: "Kanit_regular";
+  src: url(../fonts/Kanit-Regular);
+}
 body {
     margin: 0;
-    font-family: Helvetica, sans-serif;
-    background-color: #f4f4f4;
+    font-family: "Kanit_regular", sans-serif;
+    background-color: #FFFFFF;
   }
   
   a {
-    color: white;
+    color: #FFFFFF;
   }
   
-  /* header */
+  
   
   .header {
-    background-color: red;
-    box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+    background-color: #BA181B;
+    box-shadow: 1px 1px 4px 0 rgba(11,9,10,.1);
     position: fixed;
     width: 100%;
     z-index: 3;
@@ -24,19 +35,19 @@ body {
     padding: 0;
     list-style: none;
     overflow: hidden;
-    background-color: red;
+    background-color: #BA181B;
   }
   
   .header li a {
     display: block;
     padding: 20px 20px;
-    border-right: 1px solid #f4f4f4;
+    border-right: 1px solid #FFFFFF;
     text-decoration: none;
   }
   
   .header li a:hover,
   .header .menu-btn:hover {
-    background-color: #eb3144;
+    background-color: #161A1D;
   }
   
   .header .logo {
@@ -67,7 +78,7 @@ body {
   }
   
   .header .menu-icon .navicon {
-    background: #333;
+    background: #0B090A;
     display: block;
     height: 2px;
     position: relative;
@@ -77,7 +88,7 @@ body {
   
   .header .menu-icon .navicon:before,
   .header .menu-icon .navicon:after {
-    background: #333;
+    background: #0B090A;
     content: '';
     display: block;
     height: 100%;
@@ -94,7 +105,7 @@ body {
     top: -5px;
   }
   
-  /* menu btn */
+  
   
   .header .menu-btn {
     display: none;
@@ -156,4 +167,48 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+  .parallax {
+    
+    background-image: url("../images/pngegg\ \(7\).png");
+  
+    
+    min-height: 500px;
+  
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .nin {
+    
+    background-image: url("../images/pngegg\ \(7\).png");
+  
+    
+    min-height: 500px;
+  
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .zelda {
+    
+    background-image: url("../images/zelda-breath-of-the-wild.jpg");
+  
+    
+    min-height: 500px;
+  
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .title{
+    font: size 24pt;
+    text-align: center;
+    padding: 20px;
   }
