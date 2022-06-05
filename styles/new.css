@@ -375,6 +375,47 @@ body {
     }
   
   }
-  h1 a {
+  h1 a  {
     text-decoration: none;
+    color: #ffffff;
+  }
+  .zeldabg {
+    
+    background-image: url("../images/zelda-breath-of-the-wild.jpg");
+  
+    
+    height: 100%; 
+  
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  h1 {
+    color: #ffffff;
+  }
+  .zelda2 {
+    
+    background-image: url("../images/Gallery_Lozbotw_5.aaaec624.2d958659.jpg");
+  
+    
+    min-height: 500px;
+  
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .pokelogo {
+    
+    background-image: url("../images/3175005.jpg");
+  
+    
+    height: 100%; 
+  
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
